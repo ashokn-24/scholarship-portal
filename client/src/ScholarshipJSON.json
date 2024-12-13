@@ -1,0 +1,1478 @@
+{
+  "completedHtml": {
+    "default": "Thank you for your interest in applying for seats at the International Islamic Charitable Organization at Kuwait University.",
+    "ar": "شكرًا لاهتمامكم بالتقديم على مقاعد الهيئة الخيرية الإسلامية العالمية بجامعة الكويت."
+  },
+  "completeText": {
+    "default": "Submit",
+    "ar": "إكمال"
+  },
+  "pageNextText": {
+    "default": "Next",
+    "ar": "التالي"
+  },
+  "pagePrevText": {
+    "default": "Previous",
+    "ar": "السابق"
+  },
+  "title": {
+    "default": "Scholarship Application Form",
+    "ar": "استمارة طلب المنحة"
+  },
+  "description": {
+    "default": "Form to submit a scholarship application",
+    "ar": "استمارة لتقديم طلب المنحة الدراسية"
+  },
+  "localizedStrings": {
+    "default": {
+      "fileQuestion_maxSizeError": "The file size should not exceed 200 KB."
+    },
+    "ar": {
+      "fileQuestion_maxSizeError": "يجب ألا يتجاوز حجم الملف 200 كيلوبايت."
+    }
+  },
+  "logoPosition": "right",
+  "pages": [
+    {
+      "name": "page1",
+      "title": {
+        "default": "Applicant Personal Information",
+        "ar": "البيانات الشخصية"
+      },
+      "description": {
+        "ar": "يرجى الحرص على تعبئة البيانات كما هو مكتوب في الوثائق الرسمية",
+        "default": "Please be careful to fill out the data as written in the official documents"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "name": "firstName",
+          "title": {
+            "default": "First Name",
+            "ar": "الاسم الأول"
+          },
+          "isRequired": true,
+          "titleLocation": "left"
+        },
+        {
+          "type": "text",
+          "name": "surName",
+          "startWithNewLine": false,
+          "title": {
+            "default": "Second Name",
+            "ar": "الاسم الثاني"
+          },
+          "isRequired": true,
+          "titleLocation": "left"
+        },
+        {
+          "type": "text",
+          "name": "familyName",
+          "title": {
+            "default": "Family Name",
+            "ar": "اسم العائلة"
+          },
+          "isRequired": true
+        },
+        {
+          "type": "dropdown",
+          "name": "birthPlace",
+          "title": {
+            "default": "Birth place, country",
+            "ar": "مكان الميلاد- المدينة-الدولة"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Afghanistan",
+              "text": {
+                "default": "Afghanistan",
+                "ar": "أفغانستان"
+              }
+            },
+            {
+              "value": "Algeria",
+              "text": {
+                "default": "Algeria",
+                "ar": "الجزائر"
+              }
+            },
+            {
+              "value": "Australia",
+              "text": {
+                "default": "Australia",
+                "ar": "أستراليا"
+              }
+            },
+            {
+              "value": "Bahrain",
+              "text": {
+                "default": "Bahrain",
+                "ar": "البحرين"
+              }
+            },
+            {
+              "value": "Bangladesh",
+              "text": {
+                "default": "Bangladesh",
+                "ar": "بنغلاديش"
+              }
+            },
+            {
+              "value": "Bhutan",
+              "text": {
+                "default": "Bhutan",
+                "ar": "بوتان"
+              }
+            },
+            {
+              "value": "Brazil",
+              "text": {
+                "default": "Brazil",
+                "ar": "البرازيل"
+              }
+            },
+            {
+              "value": "Myanmar",
+              "text": {
+                "default": "Myanmar",
+                "ar": "ميانمار"
+              }
+            },
+            {
+              "value": "Canada",
+              "text": {
+                "default": "Canada",
+                "ar": "كندا"
+              }
+            },
+            {
+              "value": "China",
+              "text": {
+                "default": "China",
+                "ar": "الصين"
+              }
+            },
+            {
+              "value": "Egypt",
+              "text": {
+                "default": "Egypt",
+                "ar": "مصر"
+              }
+            },
+            {
+              "value": "Ethiopia",
+              "text": {
+                "default": "Ethiopia",
+                "ar": "إثيوبيا"
+              }
+            },
+            {
+              "value": "France",
+              "text": {
+                "default": "France",
+                "ar": "فرنسا"
+              }
+            },
+            {
+              "value": "Germany",
+              "text": {
+                "default": "Germany",
+                "ar": "ألمانيا"
+              }
+            },
+            {
+              "value": "India",
+              "text": {
+                "default": "India",
+                "ar": "الهند"
+              }
+            },
+            {
+              "value": "Indonesia",
+              "text": {
+                "default": "Indonesia",
+                "ar": "إندونيسيا"
+              }
+            },
+            {
+              "value": "Iraq",
+              "text": {
+                "default": "Iraq",
+                "ar": "العراق"
+              }
+            },
+            {
+              "value": "Iran",
+              "text": {
+                "default": "Iran",
+                "ar": "إيران"
+              }
+            },
+            {
+              "value": "Italy",
+              "text": {
+                "default": "Italy",
+                "ar": "إيطاليا"
+              }
+            },
+            {
+              "value": "Japan",
+              "text": {
+                "default": "Japan",
+                "ar": "اليابان"
+              }
+            },
+            {
+              "value": "Jordan",
+              "text": {
+                "default": "Jordan",
+                "ar": "الأردن"
+              }
+            },
+            {
+              "value": "Kazakhstan",
+              "text": {
+                "default": "Kazakhstan",
+                "ar": "كازاخستان"
+              }
+            },
+            {
+              "value": "Kenya",
+              "text": {
+                "default": "Kenya",
+                "ar": "كينيا"
+              }
+            },
+            {
+              "value": "Kuwait",
+              "text": {
+                "default": "Kuwait",
+                "ar": "الكويت"
+              }
+            },
+            {
+              "value": "Kyrgyzstan",
+              "text": {
+                "default": "Kyrgyzstan",
+                "ar": "قرغيزستان"
+              }
+            },
+            {
+              "value": "Lebanon",
+              "text": {
+                "default": "Lebanon",
+                "ar": "لبنان"
+              }
+            },
+            {
+              "value": "Libya",
+              "text": {
+                "default": "Libya",
+                "ar": "ليبيا"
+              }
+            },
+            {
+              "value": "Malaysia",
+              "text": {
+                "default": "Malaysia",
+                "ar": "ماليزيا"
+              }
+            },
+            {
+              "value": "Maldives",
+              "text": {
+                "default": "Maldives",
+                "ar": "جزر المالديف"
+              }
+            },
+            {
+              "value": "Morocco",
+              "text": {
+                "default": "Morocco",
+                "ar": "المغرب"
+              }
+            },
+            {
+              "value": "Mexico",
+              "text": {
+                "default": "Mexico",
+                "ar": "المكسيك"
+              }
+            },
+            {
+              "value": "Nepal",
+              "text": {
+                "default": "Nepal",
+                "ar": "نيبال"
+              }
+            },
+            {
+              "value": "Nigeria",
+              "text": {
+                "default": "Nigeria",
+                "ar": "نيجيريا"
+              }
+            },
+            {
+              "value": "Oman",
+              "text": {
+                "default": "Oman",
+                "ar": "عمان"
+              }
+            },
+            {
+              "value": "Pakistan",
+              "text": {
+                "default": "Pakistan",
+                "ar": "باكستان"
+              }
+            },
+            {
+              "value": "Philippines",
+              "text": {
+                "default": "Philippines",
+                "ar": "الفلبين"
+              }
+            },
+            {
+              "value": "Qatar",
+              "text": {
+                "default": "Qatar",
+                "ar": "قطر"
+              }
+            },
+            {
+              "value": "Russia",
+              "text": {
+                "default": "Russia",
+                "ar": "روسيا"
+              }
+            },
+            {
+              "value": "Saudi Arabia",
+              "text": {
+                "default": "Saudi Arabia",
+                "ar": "المملكة العربية السعودية"
+              }
+            },
+            {
+              "value": "Singapore",
+              "text": {
+                "default": "Singapore",
+                "ar": "سنغافورة"
+              }
+            },
+            {
+              "value": "Somalia",
+              "text": {
+                "default": "Somalia",
+                "ar": "الصومال"
+              }
+            },
+            {
+              "value": "South Africa",
+              "text": {
+                "default": "South Africa",
+                "ar": "جنوب أفريقيا"
+              }
+            },
+            {
+              "value": "South Korea",
+              "text": {
+                "default": "South Korea",
+                "ar": "كوريا الجنوبية"
+              }
+            },
+            {
+              "value": "Sri Lanka",
+              "text": {
+                "default": "Sri Lanka",
+                "ar": "سريلانكا"
+              }
+            },
+            {
+              "value": "Sudan",
+              "text": {
+                "default": "Sudan",
+                "ar": "السودان"
+              }
+            },
+            {
+              "value": "Syria",
+              "text": {
+                "default": "Syria",
+                "ar": "سوريا"
+              }
+            },
+            {
+              "value": "Tajikistan",
+              "text": {
+                "default": "Tajikistan",
+                "ar": "طاجيكستان"
+              }
+            },
+            {
+              "value": "Thailand",
+              "text": {
+                "default": "Thailand",
+                "ar": "تايلاند"
+              }
+            },
+            {
+              "value": "Tunisia",
+              "text": {
+                "default": "Tunisia",
+                "ar": "تونس"
+              }
+            },
+            {
+              "value": "Turkey",
+              "text": {
+                "default": "Turkey",
+                "ar": "تركيا"
+              }
+            },
+            {
+              "value": "Turkmenistan",
+              "text": {
+                "default": "Turkmenistan",
+                "ar": "تركمانستان"
+              }
+            },
+            {
+              "value": "United Arab Emirates",
+              "text": {
+                "default": "United Arab Emirates",
+                "ar": "الإمارات العربية المتحدة"
+              }
+            },
+            {
+              "value": "Uganda",
+              "text": {
+                "default": "Uganda",
+                "ar": "أوغندا"
+              }
+            },
+            {
+              "value": "United Kingdom",
+              "text": {
+                "default": "United Kingdom",
+                "ar": "المملكة المتحدة"
+              }
+            },
+            {
+              "value": "United States",
+              "text": {
+                "default": "United States",
+                "ar": "الولايات المتحدة الأمريكية"
+              }
+            },
+            {
+              "value": "Uzbekistan",
+              "text": {
+                "default": "Uzbekistan",
+                "ar": "أوزبكستان"
+              }
+            },
+            {
+              "value": "Vietnam",
+              "text": {
+                "default": "Vietnam",
+                "ar": "فيتنام"
+              }
+            },
+            {
+              "value": "Yemen",
+              "text": {
+                "default": "Yemen",
+                "ar": "اليمن"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "dob",
+          "title": {
+            "default": "Date of birth",
+            "ar": "تاريخ الميلاد"
+          },
+          "isRequired": true,
+          "inputType": "date"
+        },
+        {
+          "type": "radiogroup",
+          "name": "maritalStatus",
+          "title": {
+            "default": "Marital status ",
+            "ar": "الحالة الاجتماعية"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Married",
+              "text": {
+                "default": "Married",
+                "ar": "متزوج"
+              }
+            },
+            {
+              "value": "Un married",
+              "text": {
+                "default": "Un married",
+                "ar": "اعزب"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "gender",
+          "title": {
+            "default": "Gender",
+            "ar": "الجنس"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": {
+                "default": "Male",
+                "ar": "ذكر"
+              },
+              "text": {
+                "default": "Male",
+                "ar": "ذكر"
+              }
+            },
+            {
+              "value": {
+                "default": "Female",
+                "ar": "أنثى"
+              },
+              "text": {
+                "default": "Female",
+                "ar": "أنثى"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "isKuwaitResidency",
+          "title": {
+            "default": "Do you have a valid residence permit in Kuwait?",
+            "ar": "هل لديك اقامة سارية داخل الكويت"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Yes",
+              "text": {
+                "default": "Yes",
+                "ar": "نعم"
+              }
+            },
+            {
+              "value": "No",
+              "text": {
+                "default": "No",
+                "ar": "لا"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "nationality",
+          "title": {
+            "default": "Select Nationality",
+            "ar": "الجنسية"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Afghan",
+              "text": {
+                "default": "Afghan",
+                "ar": "أفغاني"
+              }
+            },
+            {
+              "value": "Algerian",
+              "text": {
+                "default": "Algerian",
+                "ar": "جزائري"
+              }
+            },
+            {
+              "value": "Australian",
+              "text": {
+                "default": "Australian",
+                "ar": "أسترالي"
+              }
+            },
+            {
+              "value": "Bahraini",
+              "text": {
+                "default": "Bahraini",
+                "ar": "بحريني"
+              }
+            },
+            {
+              "value": "Bangladeshi",
+              "text": {
+                "default": "Bangladeshi",
+                "ar": "بنغلاديشي"
+              }
+            },
+            {
+              "value": "Bhutanese",
+              "text": {
+                "default": "Bhutanese",
+                "ar": "بوتاني"
+              }
+            },
+            {
+              "value": "Brazilian",
+              "text": {
+                "default": "Brazilian",
+                "ar": "برازيلي"
+              }
+            },
+            {
+              "value": "Burmese",
+              "text": {
+                "default": "Burmese",
+                "ar": "بورمي"
+              }
+            },
+            {
+              "value": "Canadian",
+              "text": {
+                "default": "Canadian",
+                "ar": "كندي"
+              }
+            },
+            {
+              "value": "Chinese",
+              "text": {
+                "default": "Chinese",
+                "ar": "صيني"
+              }
+            },
+            {
+              "value": "Egyptian",
+              "text": {
+                "default": "Egyptian",
+                "ar": "مصري"
+              }
+            },
+            {
+              "value": "Ethiopian",
+              "text": {
+                "default": "Ethiopian",
+                "ar": "إثيوبي"
+              }
+            },
+            {
+              "value": "French",
+              "text": {
+                "default": "French",
+                "ar": "فرنسي"
+              }
+            },
+            {
+              "value": "German",
+              "text": {
+                "default": "German",
+                "ar": "ألماني"
+              }
+            },
+            {
+              "value": "Indian",
+              "text": {
+                "default": "Indian",
+                "ar": "هندي"
+              }
+            },
+            {
+              "value": "Indonesian",
+              "text": {
+                "default": "Indonesian",
+                "ar": "إندونيسي"
+              }
+            },
+            {
+              "value": "Iraqi",
+              "text": {
+                "default": "Iraqi",
+                "ar": "عراقي"
+              }
+            },
+            {
+              "value": "Iranian",
+              "text": {
+                "default": "Iranian",
+                "ar": "إيراني"
+              }
+            },
+            {
+              "value": "Italian",
+              "text": {
+                "default": "Italian",
+                "ar": "إيطالي"
+              }
+            },
+            {
+              "value": "Japanese",
+              "text": {
+                "default": "Japanese",
+                "ar": "ياباني"
+              }
+            },
+            {
+              "value": "Jordanian",
+              "text": {
+                "default": "Jordanian",
+                "ar": "أردني"
+              }
+            },
+            {
+              "value": "Kazakh",
+              "text": {
+                "default": "Kazakh",
+                "ar": "كازاخستاني"
+              }
+            },
+            {
+              "value": "Kenyan",
+              "text": {
+                "default": "Kenyan",
+                "ar": "كيني"
+              }
+            },
+            {
+              "value": "Kuwaiti",
+              "text": {
+                "default": "Kuwaiti",
+                "ar": "كويتي"
+              }
+            },
+            {
+              "value": "Kyrgyz",
+              "text": {
+                "default": "Kyrgyz",
+                "ar": "قرغيزي"
+              }
+            },
+            {
+              "value": "Lebanese",
+              "text": {
+                "default": "Lebanese",
+                "ar": "لبناني"
+              }
+            },
+            {
+              "value": "Libyan",
+              "text": {
+                "default": "Libyan",
+                "ar": "ليبي"
+              }
+            },
+            {
+              "value": "Malaysian",
+              "text": {
+                "default": "Malaysian",
+                "ar": "ماليزي"
+              }
+            },
+            {
+              "value": "Maldivian",
+              "text": {
+                "default": "Maldivian",
+                "ar": "مالديفي"
+              }
+            },
+            {
+              "value": "Moroccan",
+              "text": {
+                "default": "Moroccan",
+                "ar": "مغربي"
+              }
+            },
+            {
+              "value": "Mexican",
+              "text": {
+                "default": "Mexican",
+                "ar": "مكسيكي"
+              }
+            },
+            {
+              "value": "Nepalese",
+              "text": {
+                "default": "Nepalese",
+                "ar": "نيبالي"
+              }
+            },
+            {
+              "value": "Nigerian",
+              "text": {
+                "default": "Nigerian",
+                "ar": "نيجيري"
+              }
+            },
+            {
+              "value": "Omani",
+              "text": {
+                "default": "Omani",
+                "ar": "عماني"
+              }
+            },
+            {
+              "value": "Pakistani",
+              "text": {
+                "default": "Pakistani",
+                "ar": "باكستاني"
+              }
+            },
+            {
+              "value": "Filipino",
+              "text": {
+                "default": "Filipino",
+                "ar": "فلبيني"
+              }
+            },
+            {
+              "value": "Qatari",
+              "text": {
+                "default": "Qatari",
+                "ar": "قطري"
+              }
+            },
+            {
+              "value": "Russian",
+              "text": {
+                "default": "Russian",
+                "ar": "روسي"
+              }
+            },
+            {
+              "value": "Saudi",
+              "text": {
+                "default": "Saudi",
+                "ar": "سعودي"
+              }
+            },
+            {
+              "value": "Singaporean",
+              "text": {
+                "default": "Singaporean",
+                "ar": "سنغافوري"
+              }
+            },
+            {
+              "value": "Somali",
+              "text": {
+                "default": "Somali",
+                "ar": "صومالي"
+              }
+            },
+            {
+              "value": "South African",
+              "text": {
+                "default": "South African",
+                "ar": "جنوب أفريقي"
+              }
+            },
+            {
+              "value": "South Korean",
+              "text": {
+                "default": "South Korean",
+                "ar": "كوري جنوبي"
+              }
+            },
+            {
+              "value": "Sri Lankan",
+              "text": {
+                "default": "Sri Lankan",
+                "ar": "سريلانكي"
+              }
+            },
+            {
+              "value": "Sudanese",
+              "text": {
+                "default": "Sudanese",
+                "ar": "سوداني"
+              }
+            },
+            {
+              "value": "Syrian",
+              "text": {
+                "default": "Syrian",
+                "ar": "سوري"
+              }
+            },
+            {
+              "value": "Tajik",
+              "text": {
+                "default": "Tajik",
+                "ar": "طاجيكي"
+              }
+            },
+            {
+              "value": "Thai",
+              "text": {
+                "default": "Thai",
+                "ar": "تايلاندي"
+              }
+            },
+            {
+              "value": "Tunisian",
+              "text": {
+                "default": "Tunisian",
+                "ar": "تونسي"
+              }
+            },
+            {
+              "value": "Turkish",
+              "text": {
+                "default": "Turkish",
+                "ar": "تركي"
+              }
+            },
+            {
+              "value": "Turkmen",
+              "text": {
+                "default": "Turkmen",
+                "ar": "تركماني"
+              }
+            },
+            {
+              "value": "Emirati",
+              "text": {
+                "default": "Emirati",
+                "ar": "إماراتي"
+              }
+            },
+            {
+              "value": "Ugandan",
+              "text": {
+                "default": "Ugandan",
+                "ar": "أوغندي"
+              }
+            },
+            {
+              "value": "British",
+              "text": {
+                "default": "British",
+                "ar": "بريطاني"
+              }
+            },
+            {
+              "value": "American",
+              "text": {
+                "default": "American",
+                "ar": "أمريكي"
+              }
+            },
+            {
+              "value": "Uzbek",
+              "text": {
+                "default": "Uzbek",
+                "ar": "أوزبكي"
+              }
+            },
+            {
+              "value": "Vietnamese",
+              "text": {
+                "default": "Vietnamese",
+                "ar": "فيتنامي"
+              }
+            },
+            {
+              "value": "Yemeni",
+              "text": {
+                "default": "Yemeni",
+                "ar": "يمني"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "passportNumber",
+          "title": {
+            "default": "Passport Number",
+            "ar": "رقم جواز السفر"
+          },
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "passportExpires",
+          "title": {
+            "default": "Passport expiry date",
+            "ar": "صلاحيه جواز السفر"
+          },
+          "isRequired": true,
+          "inputType": "date"
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "title": {
+        "default": "Colleges and specializations for students applying for bachelor’s studies",
+        "ar": "الكليات والتخصصات للطلبة المتقدمون لدراسة البكالوريوس"
+      },
+      "description": {
+        "default": "Desires and specializations for nomination",
+        "ar": "الرغبات والتخصصات للترشيح"
+      },
+      "elements": [
+        {
+          "type": "dropdown",
+          "name": "college",
+          "title": {
+            "default": "Choose college",
+            "ar": "اختر الكلية"
+          },
+          "isRequired": true
+        },
+        {
+          "type": "dropdown",
+          "name": "course",
+          "title": {
+            "default": "Choose your major course",
+            "ar": "اختر التخصص"
+          },
+          "isRequired": true,
+          "visibleIf": "{college} notempty"
+        }
+      ]
+    },
+    {
+      "name": "page3",
+      "title": {
+        "default": "Scientific recommendations",
+        "ar": "توصيات علمية"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "name": "personName",
+          "title": {
+            "default": "Person Name",
+            "ar": "اسم الشخص"
+          }
+        },
+        {
+          "type": "text",
+          "name": "telephone",
+          "title": {
+            "default": "Telephone Number",
+            "ar": "رقم الهاتف"
+          }
+        },
+        {
+          "type": "text",
+          "name": "address",
+          "title": {
+            "default": "Address",
+            "ar": "العنوان"
+          }
+        },
+        {
+          "type": "text",
+          "name": "email",
+          "title": {
+            "default": "Email address",
+            "ar": "عنوان البريد الإلكتروني"
+          }
+        }
+      ]
+    },
+    {
+      "name": "page4",
+      "title": {
+        "default": "Nomination Authority",
+        "ar": "جهة الترشيح"
+      },
+      "elements": [
+        {
+          "type": "text",
+          "name": "howDidYouFind",
+          "title": {
+            "default": "How did you find out about the scholarship and who was the entity that directed you to register for this scholarship?",
+            "ar": "كيف عرفت بالمنحة ومن هي الجهة التي دلتك على التسجيل لهذه المنحة"
+          }
+        },
+        {
+          "type": "text",
+          "name": "nominatingInstitution",
+          "title": {
+            "default": "The name of the institution/association/university/body that nominated you for sponsorship",
+            "ar": "اسم المؤسسة/ الجمعية/الجامعة/ الجهة التي رشحتك للكفالة"
+          }
+        },
+        {
+          "type": "text",
+          "name": "directorName",
+          "title": {
+            "default": "Name of the organization's director",
+            "ar": "اسم مدير المؤسسة"
+          }
+        },
+        {
+          "type": "text",
+          "name": "phoneNumber",
+          "title": {
+            "default": "Phone number -WhatsApp- (preceded by the international country code) ",
+            "ar": "رقم الهاتف -واتس اب- (مسبوقاً بالمفتاح الدولي للدولة) "
+          },
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "organizationEmail",
+          "title": {
+            "default": "Email address of the organization manager *",
+            "ar": "البريد الإلكتروني لمدير المؤسسة"
+          },
+          "isRequired": true
+        }
+      ]
+    },
+    {
+      "name": "page5",
+      "title": {
+        "default": "Applicant Economic situation",
+        "ar": "الوضع الاقتصادي لمقدم الطلب"
+      },
+      "elements": [
+        {
+          "type": "dropdown",
+          "name": "whoSupportsTheFamily",
+          "title": {
+            "default": "Who supports the family?",
+            "ar": "من الذي يعول الأسرة؟"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "Father",
+              "text": {
+                "default": "Father",
+                "ar": "الوالد"
+              }
+            },
+            {
+              "value": "Mother",
+              "text": {
+                "default": "Mother",
+                "ar": "الوالدة"
+              }
+            },
+            {
+              "value": "One of the brothers",
+              "text": {
+                "default": "One of the brothers",
+                "ar": "أحد الإخوة"
+              }
+            },
+            {
+              "value": "A relative",
+              "text": {
+                "default": "A relative",
+                "ar": "أحد الأقارب"
+              }
+            },
+            {
+              "value": "You support the family",
+              "text": {
+                "default": "You support the family",
+                "ar": "أنت تعول الأسرة "
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "doYouWork",
+          "title": {
+            "default": "Do you work?",
+            "ar": "هل تعمل؟"
+          },
+          "choices": [
+            {
+              "value": "Yes",
+              "text": {
+                "default": "Yes",
+                "ar": "نعم "
+              }
+            },
+            {
+              "value": "No",
+              "text": {
+                "default": "No",
+                "ar": "لا"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "doYouVolunteer",
+          "title": {
+            "default": "Do you work/volunteer with a charity?",
+            "ar": "هل لك عمل/ تطوع مع إحدى الجمعيات الخيرية؟"
+          },
+          "choices": [
+            {
+              "value": "Yes",
+              "text": {
+                "default": "Yes",
+                "ar": "نعم "
+              }
+            },
+            {
+              "value": "No",
+              "text": {
+                "default": "No",
+                "ar": "لا"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "receiveGrant",
+          "title": {
+            "default": "Do you receive a grant from another party?",
+            "ar": "هل تتلقى منحة من جهة أخرى؟"
+          },
+          "choices": [
+            {
+              "value": "Yes",
+              "text": {
+                "default": "Yes",
+                "ar": "نعم "
+              }
+            },
+            {
+              "value": "No",
+              "text": {
+                "default": "No",
+                "ar": "لا"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "typeOfScholarship",
+          "title": {
+            "default": "If you get a grant, what type of scholarship?",
+            "ar": "إذا كنت تحصل على منحة، ما نوع المنحة؟"
+          },
+          "choices": [
+            {
+              "value": "Study sponsorship",
+              "text": {
+                "default": "Study sponsorship",
+                "ar": "كفالة دراسية"
+              }
+            },
+            {
+              "value": "Subsistence guarantee",
+              "text": {
+                "default": "Subsistence guarantee",
+                "ar": "كفالة إعاشة"
+              }
+            },
+            {
+              "value": "Comprehensive warranty",
+              "text": {
+                "default": "Comprehensive warranty",
+                "ar": "كفالة شاملة"
+              }
+            }
+          ],
+          "visibleIf": "{receiveGrant} == 'Yes'"
+        }
+      ]
+    },
+    {
+      "name": "page6",
+      "title": {
+        "default": "Applicant Files Attachment",
+        "ar": "مرفق ملفات مقدم الطلب"
+      },
+      "elements": [
+        {
+          "type": "file",
+          "name": "birthFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "Certified copy of birth certificate",
+            "ar": "نسخة مصدقة من شهادة الميلاد"
+          },
+          "isRequired": true
+        },
+        {
+          "type": "file",
+          "name": "photoFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "Personal photo (with blue background) *",
+            "ar": "صورة شخصية (بخلفية زرقاء) "
+          },
+          "isRequired": true
+        },
+        {
+          "type": "file",
+          "name": "diplomaFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "A certified and certified copy of the high school diploma",
+            "ar": "صورة شهادة الثانوية مصدقة ومعتمدة *"
+          },
+          "isRequired": true
+        },
+        {
+          "type": "file",
+          "name": "gradesFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "A copy of the detailed grade certificate for the first, second and third grades of secondary school (certified and certified) *",
+            "ar": "صورة الشهادة التفصيلية للدرجات للصفوف الاول والثاني والثالث الثانوي (معتمدة ومصدقة) "
+          },
+          "isRequired": true
+        },
+        {
+          "type": "file",
+          "name": "passportFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "A copy of the passport (personal information page and passport data page) *",
+            "ar": "نسخة من جواز السفر(صفحة المعلومات الشخصية وصفحة بيانات الجواز)"
+          },
+          "isRequired": true
+        },
+        {
+          "type": "file",
+          "name": "passportValidFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "Make sure that the passport is valid for no less than three years from the date of submitting the application",
+            "ar": "تأكد من وجود صلاحية للجواز لاتقل علن ثلاث سنوات من تاريخ تقديم الطلب"
+          }
+        },
+        {
+          "type": "file",
+          "name": "healthFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "Health examination report (HIV - HBSAG(B+C) - syphilis - tuberculosis - leprosy) *",
+            "ar": "تقرير الفحص الصحي (فيروس نقص المناعة البشرية – HBSAG(B+C) – الزهري – السل – الجذام) "
+          },
+          "isRequired": true
+        },
+        {
+          "type": "file",
+          "name": "arabLangFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "A certificate of proficiency in the Arabic language is mandatory for those who have graduated from high school from non-Arab countries",
+            "ar": "شهادة إتقان اللغة العربية الزامي للحاصلين على الثانوية من دول غير عربية"
+          }
+        },
+        {
+          "type": "file",
+          "name": "criminalStatusFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "Criminal status newspaper (certificate of good conduct) *",
+            "ar": "صحيفة الحالة الجنائية (شهادة حسن السيرة والسلوك) *"
+          },
+          "isRequired": true
+        },
+        {
+          "type": "file",
+          "name": "recommendationFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "A copy of the scientific recommendations (recommendations)",
+            "ar": "نسخة من التوصيات العلمية (التزكيات)"
+          }
+        },
+        {
+          "type": "file",
+          "name": "testCompletionFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "Certificate of completion of aptitude test *",
+            "ar": "شهادةاتمام اختبار القدرات"
+          },
+          "isRequired": true
+        },
+        {
+          "type": "file",
+          "name": "sequenceFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "Sequence certificate",
+            "ar": "شهادة تسلسل دراسى"
+          },
+          "isRequired": true
+        },
+        {
+          "type": "radiogroup",
+          "name": "certificateEquivalency",
+          "title": {
+            "default": "Attach the certificate equivalency",
+            "ar": "إرفاق معادلة الشهادة"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "value 1",
+              "text": {
+                "default": "Students studying in non-Arab schools inside Kuwait and students studying outside Kuwait",
+                "ar": "الطلبة الدارسين في مدارس غير عربية داخل الكويتوالطلبة الدارسين خارج الكويت"
+              }
+            },
+            {
+              "value": "value 2",
+              "text": {
+                "default": "Students studying in Kuwait Arab schools",
+                "ar": "الطلبة الدارسين بالكويت بمدارس عربية"
+              }
+            }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "kuwaitEduFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "Kuwait education equivalency certificate",
+            "ar": "شهادة المعادلة التعليم الكويت"
+          },
+          "visibleIf": "{certificateEquivalency} == 'value 1'"
+        },
+        {
+          "type": "file",
+          "name": "kuwaitResidentFile",
+          "maxSize": "1048576",
+          "title": {
+            "default": "Kuwait Residency Certificate",
+            "ar": "تقديم بطاقة تصريح الإقامة الكويتية"
+          },
+          "visibleIf": "{isKuwaitResidency} == 'Yes'"
+        }
+      ]
+    }
+  ]
+}
